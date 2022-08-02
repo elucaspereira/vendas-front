@@ -20,29 +20,58 @@ class SignInScreen extends StatelessWidget {
               padding: const EdgeInsets.symmetric(
                 horizontal: 32,
                 vertical: 40,
-
               ),
-
               decoration: const BoxDecoration(
                 color: Colors.white,
-                borderRadius:  BorderRadius.vertical(
+                borderRadius: BorderRadius.vertical(
                   top: Radius.circular(45),
                 ),
               ),
               child: Column(
-                children: const [
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
                   //Email
-                  CustomTextField(
+                  const CustomTextField(
                     icon: Icons.email,
                     label: 'Email',
                   ),
 
                   //senha
-                 CustomTextField(
-                   icon: Icons.lock,
-                   label: 'Senha',
-                   isObscure: true,
-                 ),
+                  const CustomTextField(
+                    icon: Icons.lock,
+                    label: 'Senha',
+                    isSecret: true,
+                  ),
+
+                  SizedBox(
+                    height: 50,
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                          shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(18),
+                      )),
+                      onPressed: () {},
+                      child: const Text(
+                        "Entrar",
+                        style: TextStyle(
+                          fontSize: 18,
+                        ),
+                      ),
+                    ),
+                  ),
+
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: TextButton(
+                      onPressed: () {},
+                      child: Text(
+                        "Esqueceu a senha?",
+                        style: TextStyle(
+                          color: Colors.red,
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
