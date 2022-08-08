@@ -32,7 +32,7 @@ class SignUpScreen extends StatelessWidget {
 
               // Formulario:
               Container(
-                padding: EdgeInsets.symmetric(
+                padding: const EdgeInsets.symmetric(
                   horizontal: 32,
                   vertical: 40,
                 ),
