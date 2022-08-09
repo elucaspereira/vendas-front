@@ -134,7 +134,7 @@ class SignInScreen extends StatelessWidget {
                     ),
 
                     //Divisor:
-                    Padding(
+                     Padding(
                       padding: const EdgeInsets.only(bottom: 10),
                       child: Row(
                         children: [
