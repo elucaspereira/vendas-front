@@ -33,14 +33,14 @@ class SignInScreen extends StatelessWidget {
                       ),
                       children: [
                         const TextSpan(
-                          text: 'Vendas',
+                          text: 'Eletro',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
                         TextSpan(
-                          text: 'local',
+                          text: 'Gamer',
                           style: TextStyle(
                             color: CustomColors.customContrastColor,
                             fontWeight: FontWeight.bold,
