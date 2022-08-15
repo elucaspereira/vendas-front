@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:vendas/src/config/custom_colors.dart';
 
-import '../../config/custom_colors.dart';
+
 
 class CategoryTile extends StatelessWidget {
   const CategoryTile({
