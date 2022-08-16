@@ -3,11 +3,11 @@ class ItemModel{
   String imgUrl;
   String unit;
   double price;
-  String descriotion;
+  String description;
 
 
   ItemModel({
-    required this.descriotion,
+    required this.description,
     required this.itemName,
     required this.imgUrl,
     required this.price,
